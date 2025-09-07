@@ -1,19 +1,39 @@
 <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
+  <div class="container header-container">
+    <nav class="header-nav">
+      <a href="./index.html" class="header-logo">
+        <svg width="36" height="36">
+          <use href="./img/icon.svg#icon-logo"></use>
         </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+        Product</a
+      >
+      <ul class="header-ul">
+        <li class="nav-li-item">
+          <a href="./index.html" class="nav-link active">Product</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="nav-li-item">
+          <a href="./pricing.html" class="nav-link">Pricing</a>
+        </li>
+        <li class="nav-li-item">
+          <a href="./customers.html" class="nav-link">Customers</a>
+        </li>
+        <li class="nav-li-item">
+          <a href="./resources.html" class="nav-link">Resources</a>
         </li>
       </ul>
     </nav>
+    <ul class="header-button">
+      <li class="header-btn-list">
+        <button type="button" class="sign-in-btn">Sign In</button>
+      </li>
+      <li class="header-btn-list">
+        <button type="button" class="sign-up-btn">Sign Up</button>
+      </li>
+    </ul>
+    <button type="button" class="burger-menu-btn">
+      <svg width="26" height="26">
+        <use href="./img/icon.svg#icon-mob-menu"></use>
+      </svg>
+    </button>
   </div>
 </header>
