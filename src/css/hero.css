@@ -9,6 +9,12 @@
   gap: 11px;
 }
 
+.hero-text-group {
+  max-width: 465px;
+  min-width: 284px;
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .hero-container {
     gap: 35px;
