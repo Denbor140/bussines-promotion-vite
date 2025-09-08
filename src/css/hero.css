@@ -28,12 +28,6 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .hero-text-group {
-    max-width: 323px;
-  }
-}
-
 .hero-title {
   font-weight: 700;
   font-size: 30px;
@@ -65,7 +59,7 @@
 
 @media screen and (min-width: 768px) {
   .hero-text {
-    font-size: 13px;
+    font-size: 14px;
     text-align: start;
   }
 }
@@ -101,12 +95,12 @@
 
 .hero-btn-1 {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 15px;
   color: #fff;
   background-color: #02897a;
   border-radius: 4px;
-  min-width: 105px;
-  height: 45px;
+  min-width: 106px;
+  height: 53px;
   border: none;
   cursor: pointer;
   transition-property: background-color, color;
@@ -163,7 +157,7 @@
 .btn-2-text {
   position: relative;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
   text-decoration-skip-ink: none;
   color: #02897a;
   transition-property: color, background-color;

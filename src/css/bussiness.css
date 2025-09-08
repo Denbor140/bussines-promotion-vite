@@ -1,0 +1,101 @@
+.business {
+  margin-bottom: 100px;
+}
+
+.business-container {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .business-container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .business-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 84px;
+  }
+}
+
+.business-text-group {
+}
+
+.business-p {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.business-title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 1150px) {
+  .business-title {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+}
+
+.business-sub-p {
+  line-height: 1.625;
+  min-width: 286px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .business-sub-p {
+    max-width: 486px;
+    margin-bottom: 30px;
+  }
+}
+
+.business-list {
+}
+
+.business-list li:first-child {
+  margin-bottom: 25px;
+}
+
+.businnes-li-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.63;
+  margin-bottom: 12px;
+}
+
+.businnes-li-subtitle {
+  line-height: 1.63;
+  min-width: 280px;
+}
+
+@media screen and (min-width: 768px) {
+  .businnes-li-subtitle {
+    max-width: 486px;
+  }
+}
+
+.benefits-img {
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (min-width: 768px) {
+  .benefits-img {
+    width: 70%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .benefits-img {
+    width: 540px;
+    height: 500px;
+  }
+}
