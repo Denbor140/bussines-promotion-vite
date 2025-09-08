@@ -23,10 +23,10 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .business-text-group {
-    min-width: 331px;
-  }
+.business-text-group {
+  min-width: 285px;
+  max-width: 486px;
+  width: 100%;
 }
 
 .business-p {
@@ -61,7 +61,13 @@
 }
 
 .business-list li:first-child {
-  margin-bottom: 25px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .business-list li:first-child {
+    margin-bottom: 25px;
+  }
 }
 
 .businnes-li-title {

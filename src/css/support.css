@@ -23,13 +23,8 @@
 
 .support-text-group {
   min-width: 285px;
-  max-width: 331px;
-}
-
-@media screen and (min-width: 1150px) {
-  .support-text-group {
-    max-width: 450px;
-  }
+  max-width: 450px;
+  width: 100%;
 }
 
 .support-article {
