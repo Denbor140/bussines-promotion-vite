@@ -1,0 +1,202 @@
+.price {
+  margin-bottom: 100px;
+}
+
+.price-title {
+  font-size: 34px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .price-title {
+    margin-bottom: 24px;
+  }
+}
+
+.price-text {
+  font-weight: 500;
+  margin-bottom: 74px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .price-text {
+    margin-bottom: 40px;
+  }
+}
+
+.price-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .price-list {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .price-list {
+    gap: 72px;
+  }
+}
+
+.price-list-item {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 32px;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .price-list-item {
+    width: calc((100% - 40px) / 3);
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .price-list-item {
+    padding-top: 32px;
+    width: calc((100% - 144px) / 3);
+  }
+}
+
+.price-list-item:hover {
+  background-color: #02897a;
+  color: #fff;
+}
+
+.price-plan {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 1.67;
+  margin-bottom: 8px;
+}
+
+.price-dscr {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2.5;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 1150px) {
+  .price-dscr {
+    margin-bottom: 30px;
+  }
+}
+
+.tax-container {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.tax-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31;
+  letter-spacing: 0em;
+  color: #02897a;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+
+.tax-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tax-value {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+  padding-top: 5px;
+  margin-bottom: 7px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+
+.price-list-item:hover .tax-title,
+.price-list-item:focus .tax-title,
+.price-list-item:hover .tax-value,
+.price-list-item:focus .tax-value {
+  color: #fff;
+}
+
+.tax-per-month {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.18;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+
+.price-list-item:hover .tax-per-month,
+.price-list-item:focus .tax-per-month {
+  color: #e0e0e0;
+}
+
+.price-include-list {
+  margin-bottom: 38px;
+}
+
+@media screen and (min-width: 1150px) {
+  .price-include-list {
+    margin-bottom: 30px;
+  }
+}
+
+.price-include {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: 0.01em;
+}
+
+.price-include:nth-child(1),
+.price-include:nth-child(2) {
+  margin-bottom: 16px;
+}
+
+.price-btn-container {
+  border-radius: 8px;
+  min-width: 139px;
+  min-height: 44px;
+  border: none;
+}
+
+.price-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  background-color: #02897a;
+  cursor: pointer;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+
+.price-list-item:hover .price-btn,
+.price-list-item:focus .price-btn {
+  background-color: #fff;
+  color: #02897a;
+}
