@@ -1,0 +1,27 @@
+.pricing-header {
+  margin-bottom: 50px;
+}
+
+.pricing {
+  margin-bottom: 150px;
+}
+
+.pricing-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 31px;
+}
+
+.pricing-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.pricing-text {
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 49px;
+}

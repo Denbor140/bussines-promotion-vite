@@ -1,0 +1,78 @@
+.latest-stories {
+  margin-bottom: 100px;
+}
+
+.latest-stories-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.latest-stories-title {
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+
+.latest-stories-subtitle {
+  font-weight: 500;
+  line-height: 1.63;
+  margin-bottom: 32px;
+}
+
+.latest-stories-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.latest-stories-item {
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  width: calc((100% - 64px) / 3);
+  height: 359px;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+
+.latest-stories-item:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.latest-stories-reviewer {
+  padding-top: 22px;
+  padding-left: 24px;
+}
+
+.stories-reviewer {
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+
+.stories-reviewer-name {
+  font-weight: 700;
+}
+
+.stories-reviewer-title {
+  font-size: 24px;
+  line-height: 1.67;
+}
+
+.more-stories-link {
+  position: relative;
+  display: inline-block;
+  width: 140px;
+  height: 26px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.44;
+  color: #22343d;
+}
+
+.stories-icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
