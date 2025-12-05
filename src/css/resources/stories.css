@@ -17,6 +17,7 @@
   font-weight: 500;
   line-height: 1.63;
   margin-bottom: 32px;
+  font-size: clamp(0.9rem, 2vw, 1rem);
 }
 
 .latest-stories-list {
@@ -29,11 +30,17 @@
 .latest-stories-item {
   border: 1px solid #dedede;
   border-radius: 8px;
-  width: calc((100% - 64px) / 3);
+
   height: 359px;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-stories-item {
+    width: calc((100% - 64px) / 3);
+  }
 }
 
 .latest-stories-item:hover {
@@ -41,8 +48,7 @@
 }
 
 .latest-stories-reviewer {
-  padding-top: 22px;
-  padding-left: 24px;
+  padding: 22px;
 }
 
 .stories-reviewer {

@@ -10,6 +10,13 @@
   flex-wrap: wrap;
 }
 
+@media screen and (min-width: 768px) {
+  .join-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .join-title {
   font-size: 32px;
   text-align: center;
@@ -18,9 +25,17 @@
 }
 
 .join-list {
-  min-width: 722px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 66px;
+}
+
+@media screen and (min-width: 768px) {
+  .join-list {
+    min-width: 722px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .join-item {

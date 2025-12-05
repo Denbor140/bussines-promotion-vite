@@ -6,7 +6,7 @@
 }
 
 .choose-title {
-  font-size: 34px;
+  font-size: clamp(1.8rem, 7vw, 2.13rem);
   text-align: center;
   margin-bottom: 50px;
 }
@@ -14,6 +14,13 @@
 .choose-list {
   display: flex;
   gap: 30px;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .choose-list {
+    flex-direction: row;
+  }
 }
 
 .choose-list-item {
@@ -23,7 +30,12 @@
   border: 1px solid #dedede;
   border-radius: 10px;
   padding: 32px 0;
-  width: calc((100% - 60px) / 3);
+}
+
+@media screen and (min-width: 768px) {
+  .choose-list-item {
+    width: calc((100% - 60px) / 3);
+  }
 }
 
 .choose-list-title {

@@ -9,7 +9,7 @@
 }
 
 .customers-work-title {
-  font-size: 34px;
+  font-size: clamp(2rem, 7vw, 2.13rem);
   text-align: center;
   margin-bottom: 73px;
 }
@@ -18,13 +18,25 @@
   max-width: 1027px;
   display: flex;
   flex-wrap: wrap;
-  gap: 100px;
+  gap: 69px;
 }
 
 .customers-work-item {
   display: flex;
-  gap: 89px;
+  gap: 80px;
   align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .customers-work-item {
+    display: grid;
+    gap: 80px;
+    grid-auto-flow: column;
+  }
+  .customers-work-item:nth-child(2) > img {
+    grid-column: 2;
+  }
 }
 
 .customers-work-item:nth-child(3) {

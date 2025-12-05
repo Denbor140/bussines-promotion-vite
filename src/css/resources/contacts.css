@@ -50,14 +50,15 @@
 .contacts-map {
   margin-bottom: 50px;
   border-radius: 20px;
+  max-width: 100%;
 }
 
-.contacts-form {
-  width: 868px;
-  height: 670px;
-  padding: 52px 50px;
-  border: 1px solid #ddd;
-  border-radius: 20px;
+@media screen and (min-width: 768px) {
+  .contacts-form {
+    padding: 52px 50px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+  }
 }
 
 .contacts-form-title {

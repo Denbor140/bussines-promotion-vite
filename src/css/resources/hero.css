@@ -4,16 +4,25 @@
 
 .hero-resources-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-resources-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .hero-resources-title {
   font-weight: 600;
-  font-size: 40px;
+  font-size: clamp(2.18rem, 3vw, 2.5rem);
   line-height: 1.49;
   letter-spacing: -0.03em;
   max-width: 380px;
   margin-bottom: 24px;
+  text-align: center;
 }
 
 .hero-resources-subtitle {
@@ -22,11 +31,22 @@
   letter-spacing: -0.03em;
   max-width: 536px;
   margin-bottom: 24px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-resources-title {
+    text-align: left;
+  }
+
+  .hero-resources-subtitle {
+    text-align: left;
+  }
 }
 
 .hero-resources-form {
   margin-bottom: 24px;
-  width: 469px;
+  max-width: 369px;
   height: 66px;
   position: relative;
 }
@@ -37,8 +57,18 @@
   border: 1px solid #eaeaea;
   border-radius: 100px;
   padding: 0;
-  padding-left: 27px;
+  padding-left: 15px;
   outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-resources-form {
+    max-width: 469px;
+  }
+
+  .hero-resources-input {
+    padding-left: 27px;
+  }
 }
 
 .hero-resources-input::placeholder {
