@@ -18,12 +18,13 @@
 }
 
 .enterprise-title {
-  font-size: 34px;
+  text-align: center;
+  font-size: clamp(1.9rem, 3vw, 2.13rem);
   margin-bottom: 21px;
 }
 
 .enterprise-text {
-  font-size: 18px;
+  font-size: clamp(1.09rem, 4vw, 1.13rem);
   margin-bottom: 39px;
 }
 

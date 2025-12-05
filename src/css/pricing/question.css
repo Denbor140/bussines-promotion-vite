@@ -8,13 +8,13 @@
 }
 
 .question-title {
-  font-size: 34px;
-  margin-bottom: 8px;
+  font-size: clamp(2rem, 4.35vw, 2.13rem);
+  margin-bottom: 16px;
   text-align: center;
 }
 
 .question-subtitle {
-  font-size: 18px;
+  font-size: clamp(1rem, 2vw, 1.13rem);
   margin-bottom: 50px;
   text-align: center;
 }
@@ -52,7 +52,7 @@
 
 .faq-question-title {
   font-weight: 500;
-  font-size: 18px;
+  font-size: clamp(1rem, 2vw, 1.13rem);
 }
 
 .faq-answer {
