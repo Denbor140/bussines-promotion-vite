@@ -51,7 +51,7 @@
 
 .news-list-item {
   border: 1px solid #dedede;
-  border-radius: 8px;
+  border-radius: 9px;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: ease-in-out;
@@ -61,6 +61,12 @@
   .news-list-item {
     width: calc((100% - 60px) / 3);
   }
+}
+
+.dark .news-list-item {
+  background-color: #fff;
+  color: #22343d;
+  border: transparent;
 }
 
 .news-list-item img {

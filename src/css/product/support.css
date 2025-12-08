@@ -88,6 +88,10 @@
   height: 35px;
 }
 
+.dark .support-img-wrapper {
+  border-color: transparent;
+}
+
 .support-list-item:nth-child(1) > .support-img-wrapper {
   background-color: #f90;
 }

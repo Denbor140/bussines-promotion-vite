@@ -2,6 +2,11 @@
   margin-bottom: 100px;
 }
 
+.dark .feature {
+  background: linear-gradient(360deg, #22343d 0%, rgba(67, 67, 67, 0) 100%);
+  border-radius: 30%;
+}
+
 .feature-container {
   display: flex;
   flex-direction: column;

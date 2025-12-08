@@ -19,3 +19,12 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.dark {
+  background-color: #1f2e35;
+  color: #fff;
+}
+
+.dark a {
+  color: #fff;
+}

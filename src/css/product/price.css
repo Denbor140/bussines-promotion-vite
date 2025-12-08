@@ -69,6 +69,11 @@
   }
 }
 
+.dark .price-list-item {
+  background-color: #fff;
+  color: #22343d;
+}
+
 .price-list-item:hover {
   background-color: #02897a;
   color: #fff;

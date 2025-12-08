@@ -81,6 +81,12 @@
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
+.dark .footer-social-link:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+  transform: scale(1.02);
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
 .footer-nav {
   display: flex;
   flex-direction: column;
