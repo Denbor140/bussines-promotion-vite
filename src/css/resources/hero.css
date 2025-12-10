@@ -71,10 +71,19 @@
   }
 }
 
+.dark .hero-resources-input {
+  background-color: transparent;
+  color: #fff;
+}
+
 .hero-resources-input::placeholder {
   line-height: 1;
   letter-spacing: -0.03em;
   color: #22343d;
+}
+
+.dark .hero-resources-input::placeholder {
+  color: #fff;
 }
 
 .hero-resources-btn {

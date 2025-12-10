@@ -4,6 +4,10 @@
   margin-bottom: 150px;
 }
 
+.dark .join {
+  background: #22343d;
+}
+
 .join-container {
   display: flex;
   justify-content: center;
@@ -69,6 +73,10 @@
   margin-bottom: 16px;
 }
 
+.dark .join-item-title {
+  color: #fff;
+}
+
 .join-item-subtitle {
   font-size: 18px;
   line-height: 1.78;
@@ -79,4 +87,8 @@
   font-weight: 500;
   line-height: 1.75;
   color: #000;
+}
+
+.dark .join-item-product {
+  color: #fff;
 }

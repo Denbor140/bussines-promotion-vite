@@ -15,6 +15,11 @@
   visibility: hidden;
 }
 
+.dark .mobile-menu {
+  background-color: #1f2e35;
+  color: #fff;
+}
+
 .mobile-menu-container {
   position: relative;
   display: flex;
@@ -96,4 +101,8 @@
   background-color: transparent;
   padding: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dark .mobile-close-btn {
+  background-color: #fff;
 }

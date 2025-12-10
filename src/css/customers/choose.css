@@ -5,6 +5,10 @@
   padding-bottom: 68px;
 }
 
+.dark .choose {
+  background-color: #22343d;
+}
+
 .choose-title {
   font-size: clamp(1.8rem, 7vw, 2.13rem);
   text-align: center;

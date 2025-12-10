@@ -81,4 +81,9 @@
   top: 50%;
   right: 0;
   transform: translateY(-50%);
+  fill: #2e3a59;
+}
+
+.dark .stories-icon {
+  fill: #fff;
 }

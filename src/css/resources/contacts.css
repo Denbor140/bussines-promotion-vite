@@ -26,6 +26,10 @@
   margin-bottom: 55px;
 }
 
+.dark .contacts-subtitle {
+  color: #fff;
+}
+
 .contacts-social-list {
   display: flex;
   gap: 22px;

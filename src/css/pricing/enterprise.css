@@ -3,6 +3,10 @@
   margin-bottom: 294px;
 }
 
+.dark .enterprise {
+  background: #22343d;
+}
+
 .enterprise-container {
   display: flex;
   flex-direction: column;
